@@ -16,7 +16,6 @@ export default function App(): JSX.Element {
 
   useEffect(() => {
     hideBootSplash();
-    console.log('BootSplash has been hidden successfully');
   }, []);
 
   return (
@@ -36,7 +35,7 @@ export default function App(): JSX.Element {
           <TextInput style={styles.input} />
 
           <Pressable style={styles.button}>
-            <Text style={styles.buttonText}>Send</Text>
+            <Text style={styles.buttonText}>Login</Text>
           </Pressable>
         </SafeAreaView>
       </ImageBackground>
